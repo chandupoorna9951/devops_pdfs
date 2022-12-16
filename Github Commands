@@ -1,0 +1,25 @@
+Git Commands
+
+1. To get the status of untracked files or newly added file we use 
+    Git status
+2. To add the untracked files to the staging area we use
+    Git add <filename> or Git add . (. indicates all files)
+3.To commit to local repo we use
+    git commit -m "message"
+4. To push to remote repo we use
+    git push origin <branchname> 
+        ex: git push origin main (main:main is the branch name)
+5. To get the history of previous commits we use 
+    git log
+6.To list the branches we use
+    git branch -a
+7. To checkout to the branch we use
+        git checkout <branchname>
+8. To create a new Branch in local we use
+    git branch <branch name>
+9. To push local branch to remote we use
+    git push origin <branch name>
+10. To reset or to remove a file from staging area
+    git reset <filename>
+
+
